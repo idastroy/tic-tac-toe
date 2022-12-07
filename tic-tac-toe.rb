@@ -20,7 +20,6 @@ class Game
   @@player1_turn = true
 
   def initialize
-    puts @@winning_combos
     puts "Enter the first player's name."
     @player1 = gets.chomp
     puts " ", "Hello #{@player1}, you are #{@@symbols[@@player]}", " "
